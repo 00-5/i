@@ -1,0 +1,661 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Navigation */
+  .top-nav {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  /* Pagination styling */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .page-btn {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .page-btn:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+
+  .page-link.active {
+    font-weight: bold;
+    background-color: #007bdd;
+    color: white;
+    cursor: pointer;
+  }
+  
+
+  #page-numbers {
+    display: flex;
+    gap: 5px;
+  }
+
+  .page-link {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #3498db;
+    color: #3498db;
+    font-weight: bold;
+  }
+
+  .page-link:hover {
+    background-color: #67cbfe;
+    color: white;
+  }
+  
+  .nav-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a {
+    color: #666;
+    text-decoration: none;
+    margin-left: 2rem;
+    padding: 0.5rem 0;
+  }
+  
+  nav a.active {
+    color: #dc2626;
+    border-bottom: 2px solid #dc2626;
+  }
+  
+  /* Listings Grid */
+  .listings-grid {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .listing-preview {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s;
+  }
+  
+  .listing-preview:hover {
+    transform: translateY(-4px);
+  }
+
+  /* Location Style */
+  .preview-location {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 0.5rem;
+    font-weight: 400;
+  }
+
+
+  
+  .listing-preview img {
+    width: 100%;/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.listing-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.listing-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.image-grid {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.secondary-images {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 30%;
+}
+
+.secondary-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.listing-info {
+    margin-bottom: 1.5rem;
+}
+
+.listing-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.listing-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #dc2626;
+}
+
+.listing-details p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.additional-info p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.additional-info strong {
+    font-weight: bold;
+}
+
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .preview-content {
+    padding: 1rem;
+  }
+  
+  .preview-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .preview-location {
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .preview-details {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  /* Contact Page */
+  .contact-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .contact-card {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .contact-info {
+    margin: 1.5rem 0;
+  }
+  
+  .contact-info p {
+    margin: 0.5rem 0;
+    color: #666;
+  }
+  
+  .contact-form {
+    margin-top: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #666;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+  }  
+
+.listing-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.listing-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+
+/* Modal container */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #2c2c2c; /* Dark mode background */
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 500px;
+  width: 90%;
+  height: auto; /* Let content determine height */
+  max-height: 80%; /* Avoid it getting too large */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Adjusting the modal heading */
+.modal-heading {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* Adjusting the modal description */
+.modal-description {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.cta-button {
+  background-color: #ff4d4d; /* Red button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #ff3333;
+}
+
+
+/* Modal Close Button */
+.close {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  transition: color 0.3s ease;
+}
+
+.close:hover,
+.close:focus {
+  color: #f00; /* Red color on hover for the close button */
+  cursor: pointer;
+}
+
+/* Title */
+.modal-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ff4c4c; /* Red color for emphasis */
+}
+
+/* Description Text */
+.modal-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+/* Contact Info Section */
+.contact-info {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.contact-info h3 {
+  font-size: 20px;
+  color: #ff4c4c;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* CTA Button */
+.cta-button {
+  background-color: #ff4c4c; /* Red button */
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #d40000; /* Darker red on hover */
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.main-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.secondary-images {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+
+.secondary-image {
+  width: 100%;
+  height: 195px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  color: #666;
+  cursor: pointer;
+}
+
+
+.date {
+  position: absolute; /* Place it in the top-right corner */
+  top: 1.5rem; /* Align with the padding of the container */
+  right: 1.5rem; /* Align with the padding of the container */
+  color: #666;
+  text-align: right;
+}
+
+.listing-content {
+  padding: 1.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.location {
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.buy-btn {
+  background-color: #00ef00;
+  color: white;
+  font-size: 1.4rem;
+  padding: .8rem 1.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.label {
+  color: #666;
+}
+
+.value {
+  font-weight: 500;
+}
+
+.overlay-content {
+  display: flex; /* Align items in a row */
+  justify-content: center; /* Center the items */
+  gap: 1px; /* Space between the spans */
+}
+
+.overlay-content span {
+  font-size: 1.5rem; /* Increase font size */
+  font-weight: 600; /* Semi-bold text */
+  color: #ffffff; /* White text color */
+  background-color: rgba(0, 0, 0, 0.6); /* Darker semi-transparent background */
+  padding: 20px 20px; /* Padding for better spacing */
+  border-radius: 10px; /* Rounded corners for a pill shape */
+  text-transform: uppercase; /* Uppercase text for emphasis */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition effects */
+}
+
+.overlay-content span:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Darken background on hover */
+  transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+.description h2,
+.description p,
+.description ul {
+    padding-right: 20px; /* Add right padding to text elements */
+}
+
+.description {
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 20px; /* Space below the description */
+}
+
+.description h2 {
+  font-size: 1.8rem; /* Larger font size for the title */
+  color: #333; /* Dark color for the title */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.description p {
+  color: #555; /* Slightly lighter color for the text */
+  line-height: 1.6; /* Improved line height for readability */
+  font-size: 1rem; /* Standard font size */
+  margin-bottom: 10px; /* Space below paragraphs */
+}
+
+.description ul {
+  list-style-type: disc; /* Use bullet points for lists */
+  padding-left: 20px; /* Indent the list */
+  margin-top: 10px; /* Space above the list */
+}
+
+.description li {
+  margin-bottom: 5px; /* Space between list items */
+  color: #666; /* Lighter color for list items */
+}
+
+.description h3 {
+  color: #00cc00
+}
+
+
+
+/* Icons */
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .details-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .nav-content {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    nav a {
+      margin: 0 1rem;
+    }
+    
+    .listings-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}

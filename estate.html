@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Ana Sayfa</title>
+</head>
+<body>
+    <nav class="top-nav">
+      <div class="nav-content">
+          <a href="index.html" class="logo">
+              <img src="assets/images/logo.png" alt="" class="logo-image">
+              Mehmet Yılmaz Emlak
+          </a>
+          <div class="nav-links">
+              <a href="estate.html" class="nav-item">Satılık Mülkler</a>
+              <a href="about.html" class="nav-item" target="_blank">Hakkımda</a>
+              <a href="index.html" class="nav-item contact-btn" id="contact-btn">Ana Sayfa</a>
+          </div>
+        </div>
+    </nav>
+    </div>
+  </div>
+
+  <div class="listings-grid" id="listings-grid">
+    <!-- Listings will be rendered here dynamically -->
+  </div>
+
+  <!-- Pagination Controls -->
+  <div class="pagination" id="pagination">
+    <button id="prev-page" class="page-btn">←</button>
+    <div id="page-numbers"></div>
+    <button id="next-page" class="page-btn">→</button>
+  </div>
+
+  <script src="assets/js/estate.js"></script>
+</body>
+</html>

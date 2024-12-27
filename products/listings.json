@@ -1,0 +1,352 @@
+[
+  {
+    "id": "0",
+    "images": [
+      "products/product-0/images/image-0.webp",
+      "products/product-0/images/image-1.webp",
+      "products/product-0/images/image-2.webp"
+    ],
+    "price": "9,350,000 TL",
+    "location": "Çankaya Park Residence",
+    "contactDate": "2024-12-25",
+    "description": "Çankaya Park Evleri'ndeki bu ultra lüks 4+1 daire, şıklığı ve konforu bir arada sunuyor. Yüksek kaliteli malzemelerle donatılmış olan bu dairede, modern tasarım ve geniş yaşam alanları öne çıkıyor.",
+    "details": {
+      "Bina Yaşı": "28 Yaşında",
+      "Kira Getirisi": "65.000 TL",
+      "Aidat": "3.500 TL",
+      "Oda / Salon Sayısı": "4+1",
+      "Brüt / Net m2": "200 m²",
+      "Konut Tipi": "Apartman Dairesi",
+      "Kat": "12. Katta",
+      "Kat Sayısı": "27 Katlı",
+      "Isınma Tipi": "Merkezi",
+      "Tapu Durumu": "Kat Mülkiyeti"
+    },
+    "title": "AKARSU EMLAK OFISINDEN",
+    "additionalFeatures": [
+      "4 Yatak Odası + 1 Salon + Giyinme Odası & Ebeveyn Banyosu",
+      "Ultra lüks iç mekan tasarımı",
+      "Yüksek kaliteli malzemeler ve zengin detaylarla yapılmış iç mekan",
+      "Modern ve şık mutfak, gömme dolaplar ve Ada Tezgah",
+      "Geniş ve aydınlık yaşam alanları",
+      "Yüksek tavan ve geniş pencereler ile doğal ışık dolu ortam",
+      "Isınma: Merkezi Isıtma Sistemi",
+      "Şık ve geniş banyo, en kaliteli seramik ve armatürler",
+      "Ekstra olarak Kapalı Garaj ve Depo Daire Tapusuna Ekli Durumda",
+      "Vadi & Şehir Manzaralı",
+      "Dairemiz kat 1'de olup altında 2 kat daha bulunmaktadır"
+    ]
+  },
+  {
+    "id": "1",
+    "images": [
+      "products/product-1/images/image-0.jpg",
+      "products/product-1/images/image-1.webp",
+      "products/product-1/images/image-2.webp"
+    ],
+    "price": "7,240,000 TL",
+    "location": "Sarıçam Sitesi Residence",
+    "contactDate": "2024-12-24",
+    "description": "Sarıçam Sitesi Residence'deki bu 3+2 daire, ferah ve modern yaşam alanlarıyla konforlu bir yaşam sunuyor. Doğalgazlı ısınma sistemi, geniş balkon ve kapalı garaj özellikleri ile dikkat çekiyor.",
+    "details": {
+      "Bina Yaşı": "12 Yaşında",
+      "Kira Getirisi": "45.000 TL",
+      "Aidat": "2.500 TL",
+      "Oda / Salon Sayısı": "3+2",
+      "Brüt / Net m2": "125 m²",
+      "Konut Tipi": "Apartman Dairesi",
+      "Kat": "3. Katta",
+      "Kat Sayısı": "6 Katlı",
+      "Isınma Tipi": "Doğalgaz",
+      "Tapu Durumu": "Kat Mülkiyeti"
+    },
+    "title": "AŞIK EMLAK",
+    "additionalFeatures": [
+      "3 Yatak Odası + 2 Salon + Giyinme Odası + Modern Mutfak",
+      "Ferah ve aydınlık iç mekan",
+      "Doğalgazlı ısınma sistemi",
+      "Kapalı garaj ve depo alanı",
+      "Site içinde güvenlik ve sosyal olanaklar",
+      "Çeşitli sosyal aktiviteler için uygun"
+    ]
+  },
+  {
+    "id": "2",
+    "images": [
+      "products/product-2/images/image-0.webp",
+      "products/product-2/images/image-1.webp",
+      "products/product-2/images/image-2.webp"
+    ],
+    "price": "5,100,000 TL",
+    "location": "Bahçelievler Modern Residence",
+    "contactDate": "2024-12-23",
+    "description": "Bahçelievler Modern Residence'deki bu 3+1 daire, modern tasarımı ve geniş balkonuyla dikkat çekiyor. Hem iç mekanda hem de dış mekanda rahat bir yaşam sunuyor.",
+    "details": {
+      "Bina Yaşı": "18 Yaşında",
+      "Kira Getirisi": "35.000 TL",
+      "Aidat": "2.000 TL",
+      "Oda / Salon Sayısı": "3+1",
+      "Brüt / Net m2": "150 m²",
+      "Konut Tipi": "Apartman Dairesi",
+      "Kat": "5. Katta",
+      "Kat Sayısı": "10 Katlı",
+      "Isınma Tipi": "Kombi",
+      "Tapu Durumu": "Kat Mülkiyeti"
+    },
+    "title": "GÜVEN EMLAK",
+    "additionalFeatures": [
+      "3 Yatak Odası + 1 Salon + Mutfak + Balkon",
+      "Kombili ısınma sistemi",
+      "Geniş ve kullanışlı balkon",
+      "Modern iç mekan tasarımı",
+      "Yüksek kaliteli malzemeler",
+      "Toplu taşıma ve ana yollar yakınında"
+    ]
+  },
+  {
+    "id": "3",
+    "images": [
+      "products/product-3/images/image-0.jpg",
+      "products/product-3/images/image-1.webp",
+      "products/product-3/images/image-2.webp"
+    ],
+    "price": "8,000,000 TL",
+    "location": "Gölbaşı Luxury Villa",
+    "contactDate": "2024-12-22",
+    "description": "Gölbaşı'nda yer alan bu lüks villa, geniş iç mekanları ve sunduğu yaşam kalitesi ile dikkat çekiyor. Yerden ısıtma sistemi ve özel güvenlik gibi ayrıcalıklar sunuyor.",
+    "details": {
+      "Bina Yaşı": "5 Yaşında",
+      "Kira Getirisi": "70.000 TL",
+      "Aidat": "4.000 TL",
+      "Oda / Salon Sayısı": "5+2",
+      "Brüt / Net m2": "300 m²",
+      "Konut Tipi": "Villa",
+      "Kat": "Villa",
+      "Kat Sayısı": "2 Katlı",
+      "Isınma Tipi": "Yerden Isıtma",
+      "Tapu Durumu": "Mülkiyet"
+    },
+    "title": "EGE EMLAK",
+    "additionalFeatures": [
+      "5 Yatak Odası + 2 Salon + Geniş Bahçe",
+      "Yerden ısıtma sistemi",
+      "Güvenlikli villa kompleksi",
+      "Büyük yüzme havuzu ve spor salonu",
+      "Kapalı otopark ve depo alanları",
+      "Yüksek kaliteli iç mekan tasarımı"
+    ]
+  },
+  {
+    "id": "4",
+    "images": [
+      "products/product-4/images/image-0.webp",
+      "products/product-4/images/image-1.webp",
+      "products/product-4/images/image-2.webp"
+    ],
+    "price": "28,500,000 TL",
+    "location": "Beşiktaş City Residence SATILDI!",
+    "contactDate": "2024-12-22",
+    "description": "Beşiktaş City Residence'te, şık ve modern 5+1 daire. Yüksek kaliteli iç mekan detayları ve geniş yaşam alanları ile prestijli bir yaşam sunuyor.",
+    "details": {
+      "Bina Yaşı": "3 Yaşında",
+      "Kira Getirisi": "85.000 TL",
+      "Aidat": "4.500 TL",
+      "Oda / Salon Sayısı": "5+1",
+      "Brüt / Net m2": "250 m²",
+      "Konut Tipi": "Apartman Dairesi",
+      "Kat": "15. Katta",
+      "Kat Sayısı": "30 Katlı",
+      "Isınma Tipi": "Doğalgaz",
+      "Tapu Durumu": "Kat Mülkiyeti"
+    },
+    "title": "BEŞİKTAŞ CITY'DE ULTRA LÜKS 5+1",
+    "additionalFeatures": [
+      "Geniş balkon ve teras alanı",
+      "Yüksek kaliteli iç mekan tasarımı",
+      "Modern mutfak ve geniş ada tezgahı",
+      "Yüksek tavanlar ve büyük pencereler",
+      "Geniş ve ferah salon",
+      "Özel güvenlikli site",
+      "Kapalı otopark ve depo alanı",
+      "Merkezi ısıtma ve klima sistemi",
+      "Şehir manzaralı daire"
+    ]
+  },
+  {
+    "id": "5",
+    "images": [
+      "products/product-5/images/image-0.webp",
+      "products/product-5/images/image-1.webp",
+      "products/product-5/images/image-2.webp"
+    ],
+    "price": "1,200,000 TL",
+    "location": "Kadıköy Moda",
+    "contactDate": "2024-12-19",
+    "description": "Kadıköy Moda'da, deniz manzaralı 2+1 daire. Modern ve şık tasarımı ile yaşam alanı sunan bu daire, sakin ve huzurlu bir yaşam isteyenler için ideal.",
+    "details": {
+      "Bina Yaşı": "8 Yaşında",
+      "Kira Getirisi": "25.000 TL",
+      "Aidat": "1.500 TL",
+      "Oda / Salon Sayısı": "2+1",
+      "Brüt / Net m2": "120 m²",
+      "Konut Tipi": "Apartman Dairesi",
+      "Kat": "5. Katta",
+      "Kat Sayısı": "15 Katlı",
+      "Isınma Tipi": "Doğalgaz",
+      "Tapu Durumu": "Kat Mülkiyeti"
+    },
+    "title": "MODA'DA DENİZ MANZARALI 2+1",
+    "additionalFeatures": [
+      "Deniz manzaralı balkon",
+      "Geniş ve modern oturma alanı",
+      "Modern mutfak ve tam donanımlı ekipmanlar",
+      "Yüksek kaliteli seramik ve zemin döşemeleri",
+      "Geniş banyolar ve kaliteli seramikler",
+      "Kapalı otopark",
+      "Sosyal tesisler: Yüzme havuzu, spor salonu",
+      "Huzurlu ve güvenli mahalle",
+      "Eğitim kurumlarına ve ulaşım noktalarına yakın"
+    ]
+  },
+  {
+    "id": "6",
+    "images": [
+      "products/product-6/images/image-0.jpeg",
+      "products/product-6/images/image-1.webp",
+      "products/product-6/images/image-2.webp"
+    ],
+    "price": "9,900,000 TL",
+    "location": "Üsküdar Çamlıca",
+    "contactDate": "2024-12-18",
+    "description": "Üsküdar Çamlıca'da, mükemmel manzaralı 4+1 daire. Bu prestijli proje, lüks iç mekan özellikleri ve geniş yaşam alanları ile dikkat çekiyor.",
+    "details": {
+      "Bina Yaşı": "4 Yaşında",
+      "Kira Getirisi": "55.000 TL",
+      "Aidat": "3.000 TL",
+      "Oda / Salon Sayısı": "4+1",
+      "Brüt / Net m2": "220 m²",
+      "Konut Tipi": "Müstakil Ev",
+      "Kat": "Bağımsız Ev",
+      "Kat Sayısı": "3 Katlı",
+      "Isınma Tipi": "Doğalgaz",
+      "Tapu Durumu": "Müstakil Tapu"
+    },
+    "title": "ÇAMLICA'DA MUHTEŞEM 4+1 MÜSTAKİL EV",
+    "additionalFeatures": [
+      "Muazzam boğaz manzarası",
+      "Büyük ve modern oturma alanları",
+      "Geniş yüzme havuzu ve bahçe",
+      "Özel güvenlikli ve kapalı garaj",
+      "Çift banyo ve ebeveyn banyosu",
+      "Yüksek kaliteli iç mekan malzemeleri",
+      "Bütün odalarda balkon",
+      "Merkezi ısıtma sistemi",
+      "Yüksek tavan ve geniş pencereler"
+    ]
+  },
+  {
+    "id": "7",
+    "images": [
+      "products/product-7/images/image-0.webp",
+      "products/product-7/images/image-1.webp",
+      "products/product-7/images/image-2.webp"
+    ],
+    "price": "5,750,000 TL",
+    "location": "Maltepe Bağlarbaşı",
+    "contactDate": "2024-12-17",
+    "description": "Maltepe Bağlarbaşı'nda modern ve fonksiyonel tasarıma sahip 3+1 daire. Çevre dostu bina, kaliteli iç mekan detayları ve kolay ulaşım imkanı.",
+    "details": {
+      "Bina Yaşı": "2 Yaşında",
+      "Kira Getirisi": "35.000 TL",
+      "Aidat": "2.000 TL",
+      "Oda / Salon Sayısı": "3+1",
+      "Brüt / Net m2": "140 m²",
+      "Konut Tipi": "Apartman Dairesi",
+      "Kat": "8. Katta",
+      "Kat Sayısı": "20 Katlı",
+      "Isınma Tipi": "Merkezi",
+      "Tapu Durumu": "Kat Mülkiyeti"
+    },
+    "title": "BAĞLARBAŞI'NDAN MODERN 3+1",
+    "additionalFeatures": [
+      "Çevre dostu enerji verimli bina",
+      "Yüksek kaliteli iç mekan tasarımı",
+      "Modern mutfak ve tam donanımlı ekipmanlar",
+      "Yüksek tavanlar ve geniş pencereler",
+      "Kapalı otopark",
+      "Ferah oturma odası",
+      "Kapalı yüzme havuzu",
+      "Fitness salonu",
+      "24 saat güvenlik"
+    ]
+  },
+  {
+    "id": "8",
+    "images": [
+      "products/product-8/images/image-0.webp",
+      "products/product-8/images/image-1.webp",
+      "products/product-8/images/image-2.webp"
+    ],
+    "price": "3,200,000 TL",
+    "location": "Kartal Soğanlık",
+    "contactDate": "2024-12-16",
+    "description": "Kartal Soğanlık'ta modern 2+1 daire. Ulaşım kolaylığı ve sakin yaşam alanları ile dikkat çeken bu daire, yeni ev arayanlar için ideal.",
+    "details": {
+      "Bina Yaşı": "1 Yaşında",
+      "Kira Getirisi": "20.000 TL",
+      "Aidat": "1.000 TL",
+      "Oda / Salon Sayısı": "2+1",
+      "Brüt / Net m2": "100 m²",
+      "Konut Tipi": "Apartman Dairesi",
+      "Kat": "7. Katta",
+      "Kat Sayısı": "10 Katlı",
+      "Isınma Tipi": "Doğalgaz",
+      "Tapu Durumu": "Kat Mülkiyeti"
+    },
+    "title": "SOĞANLIK'TA YENİ 2+1 DAİRE",
+    "additionalFeatures": [
+      "Modern iç mekan tasarımı",
+      "Yeni yapım bina",
+      "Şık mutfak ve banyo",
+      "Yüksek kaliteli zemin döşemeleri",
+      "Geniş ve ferah salon",
+      "Kapalı otopark",
+      "Yüzme havuzu",
+      "Sosyal alanlar"
+    ]
+  },
+  {
+    "id": "9",
+    "images": [
+      "products/product-9/images/image-0.webp",
+      "products/product-9/images/image-1.webp",
+      "products/product-9/images/image-2.webp"
+    ],
+    "price": "6,500,000 TL",
+    "location": "Üsküdar Salacak",
+    "contactDate": "2024-12-15",
+    "description": "Üsküdar Salacak'ta, deniz manzaralı 3+1 daire. Modern ve lüks iç mekan tasarımı ile göz alıcı bir yaşam alanı sunuyor.",
+    "details": {
+      "Bina Yaşı": "6 Yaşında",
+      "Kira Getirisi": "45.000 TL",
+      "Aidat": "2.500 TL",
+      "Oda / Salon Sayısı": "3+1",
+      "Brüt / Net m2": "160 m²",
+      "Konut Tipi": "Apartman Dairesi",
+      "Kat": "12. Katta",
+      "Kat Sayısı": "18 Katlı",
+      "Isınma Tipi": "Doğalgaz",
+      "Tapu Durumu": "Kat Mülkiyeti"
+    },
+    "title": "SALACAK'TA DENİZ MANZARALI 3+1",
+    "additionalFeatures": [
+      "Eşsiz deniz manzarası",
+      "Yüksek kaliteli iç mekan malzemeleri",
+      "Modern mutfak ve geniş salon",
+      "Kapalı otopark ve depo",
+      "Geniş balkon",
+      "Havuz ve spor salonu",
+      "Şehir ulaşımına yakın"
+    ]
+  }
+]

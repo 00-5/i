@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>House Listings</title>
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <nav class="top-nav">
+    <div class="nav-content">
+        <a href="index.html" class="logo">
+            <img src="assets/images/logo.png" alt="" class="logo-image">
+            Mehmet Yılmaz Emlak
+        </a>
+        <div class="nav-links">
+            <a href=
+            "estate.html" class="nav-item">Satılık Mülkler</a>
+            <a href="about.html" class="nav-item" target="_blank">Hakkımda</a>
+            <a href="index.html" class="nav-item contact-btn" id="contact-btn">Ana Sayfa</a>
+        </div>
+      </div>
+  </nav>
+    </div>
+  </div>
+
+  <!-- Product Listing Container -->
+  <div id="listing-container" class="listing-container">
+    <!-- Product details will be inserted here dynamically -->
+  </div>
+
+  <!-- Modal Structure (Initially hidden) -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 class="modal-heading">💰 Beklemekle <b>Vakit Kaybetme</b>  !</h2>
+      <p class="modal-description">Bu paha-biçilmez mülkü güvence altına alıp<br><b style="font-family: 'Georgia', serif;">paranızı katlamanıza</b> sadece bir adım kaldı.<br><br>Yatırım fırsatı gerçek ve kazançlar <b style="font-family: 'Georgia', serif;">inkar-edilemez</b>. <br><br>Fırsatı başkasına kaptırmamak için hızlı davran ve sıraya gir.</p>
+      <div id="modal-info" class="modal-info">
+        <!-- Property details will be inserted here dynamically -->
+      </div>
+      <div id="phone-number" class="phone-number" style="display: none;">
+        <p><strong>Phone Number:</strong> <span id="phone"></span></p>
+      </div>
+      <button class="cta-button" onclick="revealPhoneNumber()">Telefon Numarasını Göster</button>
+    </div>
+  </div>
+
+  <script src="assets/js/listing.js"></script>
+</body>
+</html>
